@@ -13,3 +13,18 @@
 .btn-blue:hover {
 	color:white;
 	background-color: black;
+	
+@media (max-width:760px ) {
+	.btn-blue {
+		width:600px;
+		padding-inline: 5px;
+	}
+
+}
+
+@media (max-width:500px ) {
+	.btn-blue {
+		width:400px;
+		padding-inline: 100px;
+	}
+
